@@ -35,7 +35,7 @@
 
 ## 🐳 Docker Setup
 
-### 🔧 Step 1: Build Docker Image
+🔧 Step 1: Build and Run Docker Image
 
 ```bash
 docker build -t photo-showcase .
