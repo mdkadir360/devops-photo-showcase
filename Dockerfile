@@ -1,8 +1,4 @@
-FROM ubuntu
-WORKDIR /photo
-COPY . .
-RUN  apt update && apt install nginx -y
-COPY . /var/www/html
+FROM nginx:alpine
+COPY . /usr/share/nginx/html
 EXPOSE 80
 CMD ["nginx", "-g", "daemon off;"]
-
