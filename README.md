@@ -70,4 +70,4 @@ Free for personal, educational, and portfolio use
 
 ✨ Author
 Abdul Kadir
-💼 LinkedIn
+💼 www.linkedin.com/in/mdkadir360
