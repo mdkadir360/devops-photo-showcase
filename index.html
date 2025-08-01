@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>DevOps Gallery</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <button onclick="toggleTheme()" class="theme-toggle">Toggle Theme</button>
+
+  <h1>🔥 DevOps Engineers in Action</h1>
+
+  <div class="gallery" id="gallery">
+    <div class="photo-card"><img src="assets/images/devops1.png" alt="DevOps Hero 1" onclick="openModal(this)"/><p>Automation Champion</p></div>
+    <div class="photo-card"><img src="assets/images/devops2.png" alt="DevOps Hero 2" onclick="openModal(this)"/><p>Pipeline Wizard</p></div>
+    <div class="photo-card"><img src="assets/images/devops3.png" alt="DevOps Hero 3" onclick="openModal(this)"/><p>Kubernetes Commander</p></div>
+    <div class="photo-card"><img src="assets/images/devops4.png" alt="DevOps Hero 4" onclick="openModal(this)"/><p>Monitoring Master</p></div>
+  </div>
+
+  <!-- Modal -->
+  <div id="modal" class="modal">
+    <span class="close" onclick="closeModal()">&times;</span>
+    <div class="modal-img-wrapper">
+      <img id="modalImg" />
+      <p id="caption"></p>
+    </div>
+  </div>
+
+  <!-- Background Music -->
+  <audio id="bgMusic" autoplay loop>
+    <source src="assets/audio/background.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
